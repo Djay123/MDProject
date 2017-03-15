@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Android5.0及以上版本可以使用android:statusBarColor属性。
+我们这里新建的values-v21只有在5.0及以后的版本才能读取到，之前的版本如果需要使用
+FruitActivityTheme主题，则可以在values/styles.xml中定义。
+-->
+<resources>
+    <style name="FruitActivityTheme" parent="AppTheme">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
